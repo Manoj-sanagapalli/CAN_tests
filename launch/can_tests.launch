@@ -1,0 +1,7 @@
+<launch>
+    <node name="transmit_node" pkg="can_tests" type="transmit_node"  output="screen" >
+    </node>
+
+    <node name="recieve_node" pkg="can_tests" type="recieve_node"  output="screen" >
+    </node>
+</launch>
